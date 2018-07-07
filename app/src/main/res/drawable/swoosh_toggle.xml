@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- wenn checked = true, wird swoosh_button_checked geladen/angezeigt -->
+    <item android:state_checked="true" android:drawable="@drawable/swoosh_button_checked" />
+    <item android:state_checked="false" android:drawable="@drawable/swoosh_button" />
+</selector>
